@@ -1,0 +1,16 @@
+c:\users\md ashikul islam\documents\visual studio 2015\Projects\Cafe Management System\Cafe Management System\bin\Debug\Cafe Management System.exe.config
+c:\users\md ashikul islam\documents\visual studio 2015\Projects\Cafe Management System\Cafe Management System\bin\Debug\Cafe Management System.exe
+c:\users\md ashikul islam\documents\visual studio 2015\Projects\Cafe Management System\Cafe Management System\bin\Debug\Cafe Management System.pdb
+c:\users\md ashikul islam\documents\visual studio 2015\Projects\Cafe Management System\Cafe Management System\obj\Debug\Cafe Management System.csprojResolveAssemblyReference.cache
+c:\users\md ashikul islam\documents\visual studio 2015\Projects\Cafe Management System\Cafe Management System\obj\Debug\MainWindow.g.cs
+c:\users\md ashikul islam\documents\visual studio 2015\Projects\Cafe Management System\Cafe Management System\obj\Debug\App.g.cs
+c:\users\md ashikul islam\documents\visual studio 2015\Projects\Cafe Management System\Cafe Management System\obj\Debug\Cafe Management System_MarkupCompile.cache
+c:\users\md ashikul islam\documents\visual studio 2015\Projects\Cafe Management System\Cafe Management System\obj\Debug\Cafe Management System_MarkupCompile.lref
+c:\users\md ashikul islam\documents\visual studio 2015\Projects\Cafe Management System\Cafe Management System\obj\Debug\MainWindow.baml
+c:\users\md ashikul islam\documents\visual studio 2015\Projects\Cafe Management System\Cafe Management System\obj\Debug\Cafe Management System.g.resources
+c:\users\md ashikul islam\documents\visual studio 2015\Projects\Cafe Management System\Cafe Management System\obj\Debug\Cafe_Management_System.Properties.Resources.resources
+c:\users\md ashikul islam\documents\visual studio 2015\Projects\Cafe Management System\Cafe Management System\obj\Debug\Cafe Management System.csproj.GenerateResource.Cache
+c:\users\md ashikul islam\documents\visual studio 2015\Projects\Cafe Management System\Cafe Management System\obj\Debug\Cafe Management System.exe
+c:\users\md ashikul islam\documents\visual studio 2015\Projects\Cafe Management System\Cafe Management System\obj\Debug\Cafe Management System.pdb
+c:\users\md ashikul islam\documents\visual studio 2015\Projects\Cafe Management System\Cafe Management System\obj\Debug\mainInterface.g.cs
+c:\users\md ashikul islam\documents\visual studio 2015\Projects\Cafe Management System\Cafe Management System\obj\Debug\mainInterface.baml

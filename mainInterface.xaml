@@ -1,0 +1,73 @@
+﻿<Window x:Class="Cafe_Management_System.mainInterface"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cafe_Management_System"
+        mc:Ignorable="d"
+        Title="mainInterface" Height="730" Width="1366">
+    <Grid x:Name="exit" Loaded="exit_Loaded">
+        <Button x:Name="logout" Content="Log Out" HorizontalAlignment="Left" Margin="1242,93,0,0" VerticalAlignment="Top" Width="83" Height="38" FontWeight="Bold" FontSize="18" Click="logout_Click"/>
+        <Label x:Name="label" Content="Cafe management System" HorizontalAlignment="Left" VerticalAlignment="Top" Width="1358" Height="81" FontSize="48" FontWeight="Bold" HorizontalContentAlignment="Center" Background="#FF0E7D8F" Foreground="White"/>
+        <StackPanel HorizontalAlignment="Left" Height="366" Margin="7,88,0,0" VerticalAlignment="Top" Width="435" Background="#FF00316C"/>
+        <CheckBox x:Name="chkLatte" Content="Latte" HorizontalAlignment="Left" Margin="26,126,0,0" VerticalAlignment="Top" Height="21" Width="222" FontWeight="Bold" FontSize="18" Foreground="White" Padding="4,-5,0,0" Checked="chkLatte_Checked" Unchecked="chkLatte_Unchecked"/>
+        <TextBox x:Name="txtLatte" HorizontalAlignment="Left" Height="35" Margin="320,119,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontWeight="Bold" FontSize="20" HorizontalContentAlignment="Center" GotFocus="txtLatte_GotFocus"/>
+        <CheckBox x:Name="chkEspresso" Content="Espresso" HorizontalAlignment="Left" Margin="26,166,0,0" VerticalAlignment="Top" Height="21" Width="222" FontWeight="Bold" FontSize="18" Foreground="White" Padding="4,-5,0,0" Checked="chkEspresso_Checked" Unchecked="chkEspresso_Unchecked"/>
+        <TextBox x:Name="txtEspresso" HorizontalAlignment="Left" Height="35" Margin="320,159,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontWeight="Bold" FontSize="20" HorizontalContentAlignment="Center" GotFocus="txtEspresso_GotFocus"/>
+        <CheckBox x:Name="chkLattlced" Content="LattIced Lattee" HorizontalAlignment="Left" Margin="26,206,0,0" VerticalAlignment="Top" Height="21" Width="222" FontWeight="Bold" FontSize="18" Foreground="White" Padding="4,-5,0,0" Checked="chkLattlced_Checked" Unchecked="chkLattlced_Unchecked"/>
+        <TextBox x:Name="txtLattlced" HorizontalAlignment="Left" Height="35" Margin="320,199,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontWeight="Bold" FontSize="20" HorizontalContentAlignment="Center" GotFocus="txtLattlced_GotFocus"/>
+        <CheckBox x:Name="chkVale" Content="Vale Cofee" HorizontalAlignment="Left" Margin="26,246,0,0" VerticalAlignment="Top" Height="21" Width="222" FontWeight="Bold" FontSize="18" Foreground="White" Padding="4,-5,0,0" Checked="chkVale_Checked" Unchecked="chkVale_Unchecked"/>
+        <TextBox x:Name="txtVale" HorizontalAlignment="Left" Height="35" Margin="320,239,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontWeight="Bold" FontSize="20" HorizontalContentAlignment="Center" GotFocus="txtVale_GotFocus"/>
+        <CheckBox x:Name="chkCappuccino" Content="Cappuccino" HorizontalAlignment="Left" Margin="26,286,0,0" VerticalAlignment="Top" Height="21" Width="222" FontWeight="Bold" FontSize="18" Foreground="White" Padding="4,-5,0,0" Unchecked="chkCappuccino_Unchecked" Checked="chkCappuccino_Checked"/>
+        <TextBox x:Name="txtCappuccino" HorizontalAlignment="Left" Height="35" Margin="320,279,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontWeight="Bold" FontSize="20" HorizontalContentAlignment="Center" GotFocus="txtCappuccino_GotFocus"/>
+        <CheckBox x:Name="chkAfrican" Content="African Cofee" HorizontalAlignment="Left" Margin="26,326,0,0" VerticalAlignment="Top" Height="21" Width="222" FontWeight="Bold" FontSize="18" Foreground="White" Padding="4,-5,0,0" Checked="chkAfrican_Checked" Unchecked="chkAfrican_Unchecked"/>
+        <TextBox x:Name="txtAfrican" HorizontalAlignment="Left" Height="35" Margin="320,319,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontWeight="Bold" FontSize="20" HorizontalContentAlignment="Center" GotFocus="txtAfrican_GotFocus"/>
+        <CheckBox x:Name="chkAmerican" Content="American Cofee" HorizontalAlignment="Left" Margin="26,366,0,0" VerticalAlignment="Top" Height="21" Width="222" FontWeight="Bold" FontSize="18" Foreground="White" Padding="4,-5,0,0" Checked="chkAmerican_Checked" Unchecked="chkAmerican_Unchecked"/>
+        <TextBox x:Name="txtAmerican" HorizontalAlignment="Left" Height="35" Margin="320,359,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontWeight="Bold" FontSize="20" HorizontalContentAlignment="Center" GotFocus="txtAmerican_GotFocus"/>
+        <CheckBox x:Name="chkIced" Content="Iced - Cappuccino" HorizontalAlignment="Left" Margin="26,406,0,0" VerticalAlignment="Top" Height="21" Width="222" FontWeight="Bold" FontSize="18" Foreground="White" Padding="4,-5,0,0" Checked="chkIced_Checked" Unchecked="chkIced_Unchecked"/>
+        <TextBox x:Name="txtIced" HorizontalAlignment="Left" Height="35" Margin="320,399,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontWeight="Bold" FontSize="20" HorizontalContentAlignment="Center" GotFocus="txtIced_GotFocus"/>
+        <StackPanel HorizontalAlignment="Left" Height="366" Margin="456,88,0,0" VerticalAlignment="Top" Width="493" Background="#FF00316C"/>
+        <CheckBox x:Name="chkCofeeCake" Content="Cofee Cake" HorizontalAlignment="Left" Margin="475,126,0,0" VerticalAlignment="Top" Height="21" Width="309" FontWeight="Bold" FontSize="18" Foreground="White" Padding="4,-5,0,0" Unchecked="chkCofeeCake_Unchecked" Checked="chkCofeeCake_Checked"/>
+        <TextBox x:Name="txtCofeeCake" HorizontalAlignment="Left" Height="35" Margin="850,115,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontWeight="Bold" FontSize="20" HorizontalContentAlignment="Center" GotFocus="txtCofeeCake_GotFocus"/>
+        <CheckBox x:Name="chkRed" Content="Red Velvet Cake" HorizontalAlignment="Left" Margin="475,166,0,0" VerticalAlignment="Top" Height="21" Width="309" FontWeight="Bold" FontSize="18" Foreground="White" Padding="4,-5,0,0" Checked="chkRed_Checked" Unchecked="chkRed_Unchecked"/>
+        <TextBox x:Name="txtRed" HorizontalAlignment="Left" Height="35" Margin="850,155,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontWeight="Bold" FontSize="20" HorizontalContentAlignment="Center" GotFocus="txtRed_GotFocus"/>
+        <CheckBox x:Name="chkBlack" Content="Black Forest CakeLattee" HorizontalAlignment="Left" Margin="475,206,0,0" VerticalAlignment="Top" Height="21" Width="309" FontWeight="Bold" FontSize="18" Foreground="White" Padding="4,-5,0,0" Checked="chkBlack_Checked" Unchecked="chkBlack_Unchecked"/>
+        <TextBox x:Name="txtBlack" HorizontalAlignment="Left" Height="35" Margin="850,195,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontWeight="Bold" FontSize="20" HorizontalContentAlignment="Center" GotFocus="txtBlack_GotFocus"/>
+        <CheckBox x:Name="chkBoston" Content="Vale Boston Cream Cake" HorizontalAlignment="Left" Margin="475,246,0,0" VerticalAlignment="Top" Height="21" Width="309" FontWeight="Bold" FontSize="18" Foreground="White" Padding="4,-5,0,0" Checked="chkBoston_Checked" Unchecked="chkBoston_Unchecked"/>
+        <TextBox x:Name="txtBoston" HorizontalAlignment="Left" Height="35" Margin="850,235,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontWeight="Bold" FontSize="20" HorizontalContentAlignment="Center" GotFocus="txtBoston_GotFocus"/>
+        <CheckBox x:Name="chkLagos" Content="Lagos Chocolate Cake" HorizontalAlignment="Left" Margin="475,286,0,0" VerticalAlignment="Top" Height="21" Width="309" FontWeight="Bold" FontSize="18" Foreground="White" Padding="4,-5,0,0" Checked="chkLagos_Checked" Unchecked="chkLagos_Unchecked"/>
+        <CheckBox x:Name="chkKilburn" Content="Kilburn Chocolate Cake" HorizontalAlignment="Left" Margin="475,326,0,0" VerticalAlignment="Top" Height="21" Width="309" FontWeight="Bold" FontSize="18" Foreground="White" Padding="4,-5,0,0" Checked="chkKilburn_Checked" Unchecked="chkKilburn_Unchecked"/>
+        <TextBox x:Name="txtKilburn" HorizontalAlignment="Left" Height="35" Margin="850,315,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" RenderTransformOrigin="0.432,0.029" FontWeight="Bold" FontSize="20" HorizontalContentAlignment="Center" GotFocus="txtKilburn_GotFocus"/>
+        <CheckBox x:Name="chkCarlton" Content="Carlton Hill Chocolate Cake" HorizontalAlignment="Left" Margin="475,366,0,0" VerticalAlignment="Top" Height="21" Width="309" FontWeight="Bold" FontSize="18" Foreground="White" Padding="4,-5,0,0" Checked="chkCarlton_Checked" Unchecked="chkCarlton_Unchecked"/>
+        <TextBox x:Name="txtCarlton" HorizontalAlignment="Left" Height="35" Margin="850,355,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontWeight="Bold" FontSize="20" HorizontalContentAlignment="Center" GotFocus="txtCarlton_GotFocus"/>
+        <CheckBox x:Name="chkQueen" Content="Queen Park Chocolate Cake" HorizontalAlignment="Left" Margin="475,406,0,0" VerticalAlignment="Top" Height="21" Width="309" FontWeight="Bold" FontSize="18" Foreground="White" Padding="4,-5,0,0" Checked="chkQueen_Checked" Unchecked="chkQueen_Unchecked"/>
+        <TextBox x:Name="txtQueen" HorizontalAlignment="Left" Height="35" Margin="850,395,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" FontWeight="Bold" FontSize="20" HorizontalContentAlignment="Center" GotFocus="txtQueen_GotFocus"/>
+        <TextBox x:Name="txtLagos" HorizontalAlignment="Left" Height="35" Margin="850,275,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="81" RenderTransformOrigin="0.432,0.029" FontWeight="Bold" FontSize="20" HorizontalContentAlignment="Center" GotFocus="txtLagos_GotFocus"/>
+        <StackPanel HorizontalAlignment="Left" Height="220" Margin="10,469,0,0" VerticalAlignment="Top" Width="478" Background="#FF00316C"/>
+        <Label x:Name="label1" Content="Cost Of Drinks" HorizontalAlignment="Left" Margin="26,509,0,0" VerticalAlignment="Top" Width="190" Foreground="White" FontWeight="Bold" FontSize="18"/>
+        <Label x:Name="label1_Copy" Content="Cost Of Cakes" HorizontalAlignment="Left" Margin="26,562,0,0" VerticalAlignment="Top" Width="190" Foreground="White" FontWeight="Bold" FontSize="18"/>
+        <Label x:Name="label1_Copy1" Content="Service Charge" HorizontalAlignment="Left" Margin="26,612,0,0" VerticalAlignment="Top" Width="190" Foreground="White" FontWeight="Bold" FontSize="18"/>
+        <StackPanel HorizontalAlignment="Left" Height="220" Margin="503,469,0,0" VerticalAlignment="Top" Width="446" Background="#FF00316C"/>
+        <Label x:Name="lblTax" Content="Tax" HorizontalAlignment="Left" Margin="519,509,0,0" VerticalAlignment="Top" Width="190" Foreground="White" FontWeight="Bold" FontSize="18"/>
+        <Label x:Name="lblSub" Content="Sub Total" HorizontalAlignment="Left" Margin="519,562,0,0" VerticalAlignment="Top" Width="190" Foreground="White" FontWeight="Bold" FontSize="18"/>
+        <Label x:Name="label1_Copy4" Content="Total" HorizontalAlignment="Left" Margin="519,612,0,0" VerticalAlignment="Top" Width="190" Foreground="White" FontWeight="Bold" FontSize="18"/>
+        <StackPanel HorizontalAlignment="Left" Height="66" Margin="954,623,0,0" VerticalAlignment="Top" Width="394" Background="#FF00316C"/>
+        <StackPanel HorizontalAlignment="Left" Height="463" Margin="954,155,0,0" VerticalAlignment="Top" Width="394" Background="#FF00316C"/>
+        <StackPanel HorizontalAlignment="Left" Height="61" Margin="1005,86,0,0" VerticalAlignment="Top" Width="209" Background="#FF00316C"/>
+        <Button x:Name="btnTotal" Content="Total" HorizontalAlignment="Left" Margin="962,642,0,0" VerticalAlignment="Top" Width="83" Height="29" FontWeight="Bold" FontSize="18" Click="btnTotal_Click"/>
+        <Button x:Name="btnReceipt" Content="Receipt" HorizontalAlignment="Left" Margin="1057,642,0,0" VerticalAlignment="Top" Width="83" Height="29" FontWeight="Bold" FontSize="18" Click="btnReceipt_Click"/>
+        <Button x:Name="btnReset" Content="Reset" HorizontalAlignment="Left" Margin="1156,642,0,0" VerticalAlignment="Top" Width="83" Height="29" FontWeight="Bold" FontSize="18" Click="btnReset_Click"/>
+        <Button x:Name="btnExit" Content="Exit" HorizontalAlignment="Left" Margin="1256,642,0,0" VerticalAlignment="Top" Width="83" Height="29" FontWeight="Bold" FontSize="18" Click="btnExit_Click"/>
+        <RichTextBox x:Name="rtfreceipt" HorizontalAlignment="Left" Height="443" Margin="962,166,0,0" VerticalAlignment="Top" Width="375" FontWeight="Bold" FontSize="13">
+            <FlowDocument/>
+        </RichTextBox>
+        <TextBlock x:Name="txbService" HorizontalAlignment="Left" Margin="297,612,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="145" Background="White" FontWeight="Bold" FontSize="18"/>
+        <TextBlock x:Name="txbCostCake" HorizontalAlignment="Left" Margin="297,562,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="145" Background="White" FontWeight="Bold" FontSize="18"/>
+        <TextBlock x:Name="txbCostDrink" HorizontalAlignment="Left" Margin="297,510,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="145" Background="White" FontWeight="Bold" FontSize="18"/>
+        <TextBlock x:Name="tpTotal" HorizontalAlignment="Left" Margin="765,611,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="145" Background="White" FontWeight="Bold" FontSize="18"/>
+        <TextBlock x:Name="tpSub" HorizontalAlignment="Left" Margin="765,561,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="145" Background="White" FontWeight="Bold" FontSize="18"/>
+        <TextBlock x:Name="tpTax" HorizontalAlignment="Left" Margin="765,509,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="34" Width="145" Background="White" FontWeight="Bold" FontSize="18"/>
+
+    </Grid>
+
+</Window>
